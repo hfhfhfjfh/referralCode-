@@ -19,8 +19,8 @@ async function updateReferrals() {
 
     snapshot.forEach((childSnapshot) => {
       const user = childSnapshot.val();
-      if (user.referredBy === "Godswill3333") {
-        updates[`${childSnapshot.key}/referredBy`] = "godswill3333";
+      if (user.referredBy === "vijay k") {
+        updates[`${childSnapshot.key}/referredBy`] = "vijayk";
         count++;
       }
     });
